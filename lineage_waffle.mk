@@ -73,10 +73,10 @@ TARGET_SUPPORTS_CALL_RECORDING := true
 
 # GMS
 WITH_GMS := true
+TARGET_INCLUDE_GOOGLE_DIALER := true
 
-# Mist OS Flags
-MIST_BUILD_TYPE := UNOFFICIAL
-MISTOS_MAINTAINER := GamerBoy1234294
+# RisingOS Revived Flags
+RISING_MAINTAINER := GamerBoy1234294
 
 # Boot animation
 scr_resolution := 1440
@@ -91,6 +91,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=OP595DL1 \
     DeviceProduct=CPH2581 \
     SystemDevice=OP595DL1 \
-    SystemName=CPH2581
+    SystemName=CPH2581 \
+    # RisingOS Revived Props
+    RisingChipset="Qualcomm Snapdragon 8 Gen 3" \
+    RisingMaintainer="GamerBoy1234294"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
