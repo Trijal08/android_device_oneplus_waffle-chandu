@@ -71,13 +71,6 @@ TARGET_SUPPORTS_CLEAR_CALLING := true
 # Call Recording Support
 TARGET_SUPPORTS_CALL_RECORDING := true
 
-# GMS
-WITH_GMS := true
-
-# Mist OS Flags
-MIST_BUILD_TYPE := UNOFFICIAL
-MISTOS_MAINTAINER := GamerBoy1234294
-
 # Boot animation
 scr_resolution := 1440
 TARGET_SCREEN_HEIGHT := 3120
